@@ -1,0 +1,11 @@
+{
+  "name": "webpack-and-rails",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kir Shatrov <shatrov@me.com>",
+  "license": "MIT",
+  "dependencies": {
+    "clean-webpack-plugin": "^0.1.14",
+    "webpack": "^1.13.3"
+  }
+}

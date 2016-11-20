@@ -4,7 +4,8 @@
     <title>WebpackAndRails</title>
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+    <%= webpack_bundle_tag 'application', media: 'all' %>
   </head>
 
   <body>
